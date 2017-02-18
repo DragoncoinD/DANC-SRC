@@ -1,0 +1,34 @@
+src/*.exe
+src/DragonCoin
+src/DragonCoind
+src/test_DragonCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.DragonCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+DragonCoin-qt
+DragonCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+DragonCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

@@ -1,0 +1,9 @@
+Building DragonCoin
+
+See doc/readme-qt.rst for instructions on building DragonCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of DragonCoin.
+
+See doc/build-*.txt for instructions on building DragonCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of DragonCoin.
